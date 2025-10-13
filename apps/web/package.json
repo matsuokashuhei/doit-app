@@ -23,6 +23,7 @@
     "babel-plugin-react-native-web": "^0.21.1",
     "eslint": "^9.37.0",
     "eslint-config-next": "15.5.4",
+    "minimatch": "^10.0.1",
     "typescript": "5.9.3"
   }
 }
