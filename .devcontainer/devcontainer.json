@@ -12,6 +12,7 @@
   "customizations": {
     "vscode": {
       "extensions": [
+        // cSpell:ignore bierner dbaeumer esbenp streetsidesoftware
         "bierner.github-markdown-preview",
         "bierner.markdown-mermaid",
         "bierner.markdown-preview-github-styles",
