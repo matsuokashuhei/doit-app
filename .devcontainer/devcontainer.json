@@ -8,7 +8,8 @@
   "remoteEnv": {
     "PATH": "/home/node/.local/share/pnpm:$${containerEnv:PATH}"
   },
-
+  "forwardPorts": [8081],
+  "runArgs": ["-p=8081:8081"],
   "customizations": {
     "vscode": {
       "extensions": [
