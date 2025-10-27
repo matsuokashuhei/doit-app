@@ -1,7 +1,7 @@
 {
   "image": "mcr.microsoft.com/devcontainers/typescript-node:22",
-  "postCreateCommand": "pnpm self-update",
-  "postStartCommand": "sh ./.devcontainer/post-start.sh",
+  // "postCreateCommand": "pnpm self-update",
+  // "postStartCommand": "sh ./.devcontainer/post-start.sh",
   "containerEnv": {
     "PNPM_HOME": "/home/node/.local/share/pnpm"
   },
