@@ -1,19 +1,20 @@
 {
+  "name": "test",
   "private": true,
   "scripts": {
-    "dev": "turbo run dev",
     "build": "turbo run build",
-    "clean": "turbo run clean && rm -rf node_modules",
-    "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md}\" --ignore-path .gitignore"
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "check-types": "turbo run check-types"
   },
   "devDependencies": {
-    "@types/minimatch": "^6.0.0",
     "prettier": "^3.6.2",
-    "turbo": "^2.5.8"
+    "turbo": "^2.5.8",
+    "typescript": "5.9.2"
   },
+  "packageManager": "pnpm@10.19.0",
   "engines": {
     "node": ">=18"
-  },
-  "name": "with-react-native-web",
-  "packageManager": "pnpm@10.19.0"
+  }
 }
